@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CharacterTalkAnimation : MonoBehaviour
 {
-    [SerializeField] private AudioSource audioSource1; // First AudioSource
-    [SerializeField] private AudioSource audioSource2; // Second AudioSource
-    [SerializeField] private Animator animator; // Animator component
+    public AudioSource audioSource1; // First AudioSource
+    public AudioSource audioSource2; // Second AudioSource
+    public Animator animator; // Animator component
 
     private void Update()
     {
